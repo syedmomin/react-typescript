@@ -1,10 +1,11 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MainNavbar from './component/layout/navbar/navbar';
 
 function App() {
   return (
     <>
-      <h2 className='text-primary'>hello</h2>
+      <MainNavbar/>
     </>
   );
 }
